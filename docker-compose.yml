@@ -32,8 +32,6 @@ services:
       - ./grafana_data:/var/lib/grafana
     ports:
       - "80:3000"
-    environment:
-      - INFLUX_TOKEN=Rm9ybWF0aW9uTG9SYVdBTlVuaXZTTUIyMDIzRm9ybWF0aW9uTG9SYVdBTlVuaXZTTUIyMDIzRm9ybWF0aW9uCg==
        
        
         #  telegraf:
