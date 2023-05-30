@@ -7,7 +7,7 @@ services:
     environment:
       - DOCKER_INFLUXDB_INIT_MODE=setup
       - DOCKER_INFLUXDB_INIT_USERNAME=admin
-      - DOCKER_INFLUXDB_INIT_PASSWORD=lorawan-iot
+      - DOCKER_INFLUXDB_INIT_PASSWORD=univ-lorawan
       - DOCKER_INFLUXDB_INIT_ORG=training-usmb
       - DOCKER_INFLUXDB_INIT_BUCKET=iot-platform
       - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=U3lsdmFpbk1vbnRhZ255RXN0VW5DaGFtcGlvbl9Gb3JtYXRpb25Mb1JhV0FOX1VuaXZfU2F2b2llXzIwMjMhCg==
