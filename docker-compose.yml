@@ -20,13 +20,16 @@ services:
       - "8086:8086"
     
   nodered:
-    image: nodered/node-red:2.2.3-12
+    build: ./node_config
+    container_name: nodered
+    #image: nodered/node-red:2.2.3-12
     volumes:
       - ./node_data:/data
     ports:
       - "1880:1880"      
   
   grafana:
+    user: "1000"
     image: grafana/grafana-oss:9.4.3
     volumes:
       - ./grafana_data:/var/lib/grafana
