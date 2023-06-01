@@ -24,7 +24,7 @@ services:
     container_name: nodered
     #image: nodered/node-red:2.2.3-12
     volumes:
-      - ./node_data:/data
+     - ./node_data:/data
     ports:
       - "1880:1880"      
   
